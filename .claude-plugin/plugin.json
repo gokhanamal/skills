@@ -1,0 +1,14 @@
+{
+  "name": "gokhanamal-skills",
+  "version": "1.0.0",
+  "description": "A collection of custom skills for AI coding agents",
+  "author": {
+    "name": "Gokhan Namal",
+    "url": "https://github.com/gokhanamal"
+  },
+  "homepage": "https://github.com/gokhanamal/skills",
+  "repository": "https://github.com/gokhanamal/skills",
+  "license": "MIT",
+  "keywords": ["skills", "github-actions", "ci-cd"],
+  "skills": "./"
+}
