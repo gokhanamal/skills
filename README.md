@@ -21,15 +21,15 @@ This repository started as a skills collection and now serves as a broader home 
 
 | Skill | What it helps with |
 |-------|---------------------|
-| [github-actions](skills/github-actions/) | Create, review, debug, and harden GitHub Actions workflows and custom actions |
-| [capture](skills/capture/) | Decide whether reusable knowledge belongs in a skill, lesson, solution doc, or nowhere at all |
-| [ios-simulator](skills/ios-simulator/) | Manually drive an iOS Simulator: discover the app, launch it, inspect screens, interact with UI, and capture screenshots or logs |
+| [github-actions](skills/github-actions/) | Create, edit, debug, and review GitHub Actions workflows and custom actions |
+| [capture](skills/capture/) | Decide whether a reusable insight, fix, or decision belongs in a skill, lesson, solution doc, or nowhere at all |
+| [ios-simulator](skills/ios-simulator/) | Drive an iOS Simulator from plain-language instructions — launch apps, tap, scroll, type, and capture screenshots or logs. Also auto-invokes when visual verification of a UI change is useful |
 
-`ios-simulator` is intentionally a manual skill because it can open apps and perform real UI actions inside the simulator.
+`ios-simulator` is intentionally a manual skill because it can open apps and perform real UI actions inside the Simulator.
 
 ### Agents
 
-[agents/](agents/) is the home for reusable custom agents and related documentation. Each concrete agent should live in its own `agents/<agent-name>/` directory with a human-facing `README.md`.
+[agents/](agents/) is the home for reusable custom agents and related documentation. No concrete agents have been added yet — the directory contains scaffolding and conventions for future additions.
 
 ## Repository Guidance
 
@@ -145,7 +145,8 @@ repo-root/
 │       ├── README.md
 │       ├── SKILL.md
 │       ├── agents/         # Optional skill-specific helpers
-│       └── references/     # Optional supporting docs
+│       ├── references/     # Optional supporting docs
+│       └── scripts/        # Optional helper scripts
 ├── scripts/                # Local validation helpers
 ├── AGENTS.md               # Repo rules for contributors and coding agents
 ├── CLAUDE.md               # Claude-compatible pointer to AGENTS.md
@@ -156,6 +157,10 @@ repo-root/
 ├── README.md
 └── LICENSE
 ```
+
+## Articles
+
+- [How to build a shared AI context for your engineering team](https://medium.com/@gokhanamal/how-to-build-a-shared-ai-context-for-your-engineering-team-2a5a9c33ec83)
 
 ## Contributing
 

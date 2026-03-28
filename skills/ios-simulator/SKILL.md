@@ -1,8 +1,7 @@
 ---
 name: ios-simulator
-description: Drive an iOS Simulator from plain-language instructions by discovering the project, launching the app, inspecting the visible UI, and interacting with elements through xcodebuildmcp. Use when the user wants an agent to open Simulator, navigate screens, tap buttons, type into fields, scroll, or capture screenshots and logs.
+description: Drive an iOS Simulator from plain-language instructions by discovering the project, launching the app, inspecting the visible UI, and interacting with elements through xcodebuildmcp. Use when the user wants an agent to open Simulator, navigate screens, tap buttons, type into fields, scroll, or capture screenshots and logs. ALSO auto-invoke this skill when you need to take a screenshot of a built iOS app, verify a UI component visually, or test a UI change you just implemented — any time seeing the running app in Simulator would confirm your work.
 argument-hint: "[task]"
-disable-model-invocation: true
 allowed-tools: "Read, Bash(xcodebuildmcp *), Bash(python3 skills/ios-simulator/scripts/ui_helper.py *), Bash(rg *), Bash(find *), Bash(ls *), Bash(pwd), Bash(test *), Bash(sed *)"
 ---
 
