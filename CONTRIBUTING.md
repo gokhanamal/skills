@@ -4,6 +4,8 @@ Thanks for helping improve this AI context repository.
 
 The best contributions here are focused, well-documented, and easy for another agent user to pick up without extra context.
 
+Start with [AGENTS.md](AGENTS.md) for the repository structure and packaging rules that all contributions should follow.
+
 ## Ways To Contribute
 
 - Add a new skill with a clear, narrow purpose
@@ -33,9 +35,10 @@ python3 scripts/validate_repo.py
    - `name`
    - `description`
 4. Keep the skill focused on one primary job.
-5. Add `references/` only when they meaningfully improve accuracy or execution.
-6. Update [README.md](README.md) so the skill is discoverable.
-7. Keep all repo skills under `skills/` so the Claude and Codex manifests keep discovering the same set.
+5. Include a human-facing `README.md` alongside `SKILL.md`.
+6. Add `references/` only when they meaningfully improve accuracy or execution.
+7. Update [README.md](README.md) so the skill is discoverable.
+8. Keep all repo skills under `skills/` so the Claude and Codex manifests keep discovering the same set.
 
 ## Adding Or Updating A Custom Agent
 
@@ -57,6 +60,7 @@ python3 scripts/validate_repo.py
 - The change is scoped to one clear improvement.
 - User-facing docs match the current behavior.
 - New or renamed skills are listed in [README.md](README.md).
+- Repo-level guidance in [AGENTS.md](AGENTS.md) still matches the current structure.
 - `python3 scripts/validate_repo.py` passes locally.
 - Packaging manifests and `skills/` stay aligned with the current repo contents.
 

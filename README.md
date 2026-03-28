@@ -25,7 +25,18 @@ This repository started as a skills collection and now serves as a broader home 
 
 ### Agents
 
-The repository now reserves [agents/](agents/) for reusable custom agent definitions and related documentation as that part of the project expands.
+[agents/](agents/) is the home for reusable custom agents and related documentation. Each concrete agent should live in its own `agents/<agent-name>/` directory with a human-facing `README.md`.
+
+### Supporting Docs
+
+[docs/](docs/) holds working plans, brainstorms, and other supporting notes when they help the repo evolve without hiding important decisions in chat history.
+
+## Repository Guidance
+
+- [AGENTS.md](AGENTS.md) defines the repository rules for skills, agents, packaging, and validation.
+- [CLAUDE.md](CLAUDE.md) forwards Claude-compatible tooling to the same guidance so repo instructions stay in one place.
+- [CONTRIBUTING.md](CONTRIBUTING.md) covers the contribution workflow and authoring checklist.
+- [CHANGELOG.md](CHANGELOG.md) tracks notable packaged changes over time.
 
 ## Compatibility
 
@@ -98,6 +109,7 @@ repo-root/
 ├── .github/                # Issue templates, PR template, and CI validation
 ├── _template/              # Starter template for new skills
 ├── agents/                 # Reusable custom agent definitions and docs
+├── docs/                   # Brainstorms, plans, and supporting repo docs
 ├── skills/                 # Reusable skills used by both plugin manifests
 │   └── <skill-name>/
 │       ├── README.md
@@ -105,6 +117,9 @@ repo-root/
 │       ├── agents/         # Optional skill-specific helpers
 │       └── references/     # Optional supporting docs
 ├── scripts/                # Local validation helpers
+├── AGENTS.md               # Repo rules for contributors and coding agents
+├── CLAUDE.md               # Claude-compatible pointer to AGENTS.md
+├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── SECURITY.md
