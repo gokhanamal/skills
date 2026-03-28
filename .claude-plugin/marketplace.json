@@ -1,25 +1,26 @@
 {
-  "name": "gokhanamal-plugins",
+  "name": "gokhanamal-context",
   "owner": {
     "name": "Gokhan Namal"
   },
   "metadata": {
-    "description": "Open source skills and workflows for Claude Code",
+    "description": "Open source AI context for Claude Code",
     "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "gokhanamal-skills",
+      "name": "gokhanamal-ai-context",
       "source": "./",
-      "description": "Reusable skills for GitHub Actions workflows and reusable knowledge capture",
+      "description": "Reusable AI context including skills today and room for custom agents as the repo expands",
       "author": {
         "name": "Gokhan Namal"
       },
-      "homepage": "https://github.com/gokhanamal/skills",
-      "repository": "https://github.com/gokhanamal/skills",
+      "homepage": "https://github.com/gokhanamal/ai-context",
+      "repository": "https://github.com/gokhanamal/ai-context",
       "license": "MIT",
       "keywords": [
         "skills",
+        "agents",
         "github-actions",
         "capture",
         "claude-code"
@@ -27,6 +28,7 @@
       "category": "Productivity",
       "tags": [
         "skills",
+        "agents",
         "automation",
         "github-actions",
         "capture"

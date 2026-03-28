@@ -44,8 +44,8 @@ Show the exact proposed diff or a concise preview before editing when the change
 
 Create the smallest useful package:
 
-- `<skill-name>/README.md`
-- `<skill-name>/SKILL.md`
+- `skills/<skill-name>/README.md`
+- `skills/<skill-name>/SKILL.md`
 - optional `references/` with one focused file if helpful
 - root README skills-table entry
 

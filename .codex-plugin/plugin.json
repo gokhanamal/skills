@@ -1,35 +1,37 @@
 {
-  "name": "gokhanamal-skills",
+  "name": "gokhanamal-ai-context",
   "version": "1.0.0",
-  "description": "Open source skills for Claude Code and OpenAI Codex",
+  "description": "Open source AI context for Claude Code and OpenAI Codex",
   "author": {
     "name": "Gokhan Namal",
     "url": "https://github.com/gokhanamal"
   },
-  "homepage": "https://github.com/gokhanamal/skills",
-  "repository": "https://github.com/gokhanamal/skills",
+  "homepage": "https://github.com/gokhanamal/ai-context",
+  "repository": "https://github.com/gokhanamal/ai-context",
   "license": "MIT",
   "keywords": [
+    "claude-code",
     "skills",
-    "github-actions",
-    "capture",
-    "codex",
-    "claude-code"
+    "openai-codex",
+    "ai-agents",
+    "developer-tools",
+    "workflows"
   ],
-  "skills": "./plugin-skills/",
+  "skills": "./skills/",
   "interface": {
-    "displayName": "Gokhan Skills",
-    "shortDescription": "Reusable open source skills for agent workflows",
-    "longDescription": "A curated open source bundle of skills for GitHub Actions workflows and reusable knowledge capture across Claude Code and Codex.",
+    "displayName": "AI Context",
+    "shortDescription": "Reusable skills, agents, and workflows for coding agents",
+    "longDescription": "A curated open source AI context repo for Claude Code and Codex, starting with reusable skills and expanding toward custom agents, workflows, and supporting references.",
     "developerName": "Gokhan Namal",
     "category": "Productivity",
     "capabilities": [
       "Interactive"
     ],
-    "websiteURL": "https://github.com/gokhanamal/skills",
+    "websiteURL": "https://github.com/gokhanamal/ai-context",
     "defaultPrompt": [
       "Help me create or debug a GitHub Actions workflow",
-      "Capture this reusable fix as a skill, lesson, or solution"
+      "Capture this reusable fix as a skill, lesson, or solution",
+      "Show me the reusable AI context available in this repo"
     ],
     "brandColor": "#1F6FEB",
     "screenshots": []

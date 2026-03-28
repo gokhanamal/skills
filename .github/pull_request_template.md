@@ -11,7 +11,7 @@
 ## Checklist
 
 - [ ] README entry added or updated for new or renamed skills
-- [ ] `plugin-skills/` still matches the packaged skill set
+- [ ] `skills/` still matches the packaged skill set
 - [ ] Manifests stay aligned with the current repo contents
 - [ ] Follow-up work, if any, is called out below
 

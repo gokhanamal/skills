@@ -1,12 +1,13 @@
 # Contributing
 
-Thanks for helping improve this skills repository.
+Thanks for helping improve this AI context repository.
 
 The best contributions here are focused, well-documented, and easy for another agent user to pick up without extra context.
 
 ## Ways To Contribute
 
 - Add a new skill with a clear, narrow purpose
+- Add a reusable custom agent or adjacent context asset
 - Improve an existing skill's instructions, references, or examples
 - Fix packaging, installation, or validation issues
 - Improve documentation, templates, or contributor workflows
@@ -34,7 +35,14 @@ python3 scripts/validate_repo.py
 4. Keep the skill focused on one primary job.
 5. Add `references/` only when they meaningfully improve accuracy or execution.
 6. Update [README.md](README.md) so the skill is discoverable.
-7. If you add, remove, or rename a packaged skill, update `plugin-skills/` so the Codex plugin surface stays in sync.
+7. Keep all repo skills under `skills/` so the Claude and Codex manifests keep discovering the same set.
+
+## Adding Or Updating A Custom Agent
+
+1. Add reusable agent material under `agents/`.
+2. Include a human-facing `README.md` when the agent gets its own directory.
+3. Keep the asset reusable and avoid project-specific one-offs unless they are clearly documented.
+4. Update [README.md](README.md) if the new agent becomes part of the repo's primary surface.
 
 ## Writing Guidelines
 
@@ -50,7 +58,7 @@ python3 scripts/validate_repo.py
 - User-facing docs match the current behavior.
 - New or renamed skills are listed in [README.md](README.md).
 - `python3 scripts/validate_repo.py` passes locally.
-- Packaging manifests and `plugin-skills/` stay aligned with the current repo contents.
+- Packaging manifests and `skills/` stay aligned with the current repo contents.
 
 ## Reporting Problems
 
