@@ -4,14 +4,14 @@
     "name": "Gokhan Namal"
   },
   "metadata": {
-    "description": "Open source AI context for Claude Code",
+    "description": "Open source AI context and installable skills for coding agents",
     "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "gokhanamal-ai-context",
       "source": "./",
-      "description": "Reusable AI context including skills today and room for custom agents as the repo expands",
+      "description": "Reusable AI context and installable skills, broadly usable via skills.sh and packaged for Claude Code",
       "author": {
         "name": "Gokhan Namal"
       },
@@ -23,7 +23,8 @@
         "agents",
         "github-actions",
         "capture",
-        "claude-code"
+        "claude-code",
+        "skills.sh"
       ],
       "category": "Productivity",
       "tags": [
@@ -31,7 +32,8 @@
         "agents",
         "automation",
         "github-actions",
-        "capture"
+        "capture",
+        "skills.sh"
       ]
     }
   ]

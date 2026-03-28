@@ -1,7 +1,7 @@
 {
   "name": "gokhanamal-ai-context",
   "version": "1.0.0",
-  "description": "Open source AI context for Claude Code and OpenAI Codex",
+  "description": "Open source AI context and installable skills for coding agents",
   "author": {
     "name": "Gokhan Namal",
     "url": "https://github.com/gokhanamal"
@@ -15,13 +15,14 @@
     "openai-codex",
     "ai-agents",
     "developer-tools",
-    "workflows"
+    "workflows",
+    "skills.sh"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "AI Context",
     "shortDescription": "Reusable skills, agents, and workflows for coding agents",
-    "longDescription": "A curated open source AI context repo for Claude Code and Codex, starting with reusable skills and expanding toward custom agents, workflows, and supporting references.",
+    "longDescription": "A curated open source AI context repo with reusable skills and supporting agent context. Skills can be installed broadly via skills.sh, and the repo also includes first-class packaging for Claude Code and OpenAI Codex.",
     "developerName": "Gokhan Namal",
     "category": "Productivity",
     "capabilities": [

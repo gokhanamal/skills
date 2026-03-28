@@ -29,6 +29,8 @@ python3 scripts/validate_repo.py
 
 ## Adding Or Updating A Skill
 
+Before creating a new skill, review the [Claude skill best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices).
+
 1. Start from `_template/` when creating a new skill.
 2. Use a short, action-led, kebab-case name such as `capture` or `github-actions`.
 3. Include YAML frontmatter in `SKILL.md` with:

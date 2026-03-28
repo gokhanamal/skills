@@ -1,7 +1,7 @@
 {
   "name": "gokhanamal-ai-context",
   "version": "1.0.0",
-  "description": "Open source AI context for Claude Code and OpenAI Codex",
+  "description": "Open source AI context and installable skills for coding agents",
   "author": {
     "name": "Gokhan Namal",
     "url": "https://github.com/gokhanamal"
@@ -9,6 +9,6 @@
   "homepage": "https://github.com/gokhanamal/ai-context",
   "repository": "https://github.com/gokhanamal/ai-context",
   "license": "MIT",
-  "keywords": ["claude-code", "skills", "openai-codex", "ai-agents", "developer-tools"],
+  "keywords": ["claude-code", "skills", "openai-codex", "ai-agents", "developer-tools", "skills.sh"],
   "skills": "./skills/"
 }
